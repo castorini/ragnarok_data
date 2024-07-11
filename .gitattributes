@@ -1,2 +1,5 @@
 retrieve_results/RANK_ZEPHYR_RHO/retrieve_results_rag24.researchy-dev_top100.jsonl filter=lfs diff=lfs merge=lfs -text
 retrieve_results/BM25/retrieve_results_rag24.researchy-dev_top100.jsonl filter=lfs diff=lfs merge=lfs -text
+*.jsonl filter=lfs diff=lfs merge=lfs -text
+*/*/*.jsonl filter=lfs diff=lfs merge=lfs -text
+*/*.jsonl filter=lfs diff=lfs merge=lfs -text
